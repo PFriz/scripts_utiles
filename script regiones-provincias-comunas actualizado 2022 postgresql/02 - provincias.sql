@@ -13,7 +13,10 @@ CREATE TABLE IF NOT EXISTS p_search.provincia
 
 INSERT INTO schema.provincia(
 provincia_id, nombre_provincia, region_numero_region)
-VALUES (22,'El Loa',2),
+VALUES (11,'Iquique',1),
+(14,'Tamarugal',1),
+(21,'Antofagasta',2),
+(22,'El Loa',2),
 (23,'Tocopilla',2),
 (31,'Copiapó',3),
 (32,'Chañaral',3),
