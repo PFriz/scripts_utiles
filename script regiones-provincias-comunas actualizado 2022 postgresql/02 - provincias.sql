@@ -10,9 +10,8 @@ CREATE TABLE IF NOT EXISTS p_search.provincia
         ON DELETE NO ACTION
 )
 
-
-INSERT INTO schema.provincia(
-provincia_id, nombre_provincia, region_numero_region)
+INSERT INTO p_common.provincia(
+provincia_id, nombre_provincia, region_id)
 VALUES (11,'Iquique',1),
 (14,'Tamarugal',1),
 (21,'Antofagasta',2),
@@ -69,3 +68,4 @@ VALUES (11,'Iquique',1),
 (161,'Diguillín',16),
 (162,'Itata',16),
 (163,'Punilla',16);
+
