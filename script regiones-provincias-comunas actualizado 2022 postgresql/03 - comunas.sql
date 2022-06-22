@@ -9,9 +9,8 @@ CREATE TABLE IF NOT EXISTS p_search.comuna
         ON UPDATE NO ACTION
         ON DELETE NO ACTION
 )
-
 INSERT INTO p_common.comuna(
-comuna_id, nombre_comuna, provincia_provincia_id)
+comuna_id, nombre_comuna, provincia_id)
 VALUES
 (1101,'Iquique',11),
 (1107,'Alto Hospicio',11),
